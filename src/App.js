@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Button, Card, CardContent, Typography, Box, TextField } from '@mui/material';
-import VolumeUp from '@mui/icons-material/VolumeUp'; // Correct import
+import VolumeUp from '@mui/icons-material/VolumeUp';
 import './App.css';
 
 function App() {
@@ -22,24 +22,47 @@ function App() {
   const startSession = () => {
     const selectedWords = pickRandomWords(words, numWords);
     setSessionWords(selectedWords);
-    setCurrentCard(selectedWords[0]);
+    setCurrentCard(selectedWords.length > 0 ? selectedWords[0] : null);
     setShowTranslation(false); // Reset translation visibility
   };
 
-  // Pick random words based on frequency
+  // Pick random unique words based on frequency
   const pickRandomWords = (wordList, count) => {
-    const weightedList = [];
-    wordList.forEach((word) => {
-      for (let i = 0; i < word.frequency; i++) {
-        weightedList.push(word);
-      }
-    });
-    const shuffled = weightedList.sort(() => 0.5 - Math.random());
-    return shuffled.slice(0, count).reduce((unique, item) => {
-      return unique.some((w) => w.english === item.english)
-        ? unique
-        : [...unique, item];
-    }, []);
+    if (!wordList || wordList.length === 0) return [];
+    
+    // Create a copy of the word list to avoid modifying the original
+    const availableWords = [...wordList];
+    
+    // Create an array to store the selected unique words
+    const selectedWords = [];
+    
+    // Continue selecting words until we have enough or run out of words
+    while (selectedWords.length < count && availableWords.length > 0) {
+      // Create weighted list based on frequency
+      const weightedList = [];
+      availableWords.forEach((word, index) => {
+        // Add the word to the weighted list multiple times based on its frequency
+        for (let i = 0; i < word.frequency; i++) {
+          weightedList.push(index); // Store the index in the availableWords array
+        }
+      });
+      
+      // If no words with frequency > 0, break to avoid infinite loop
+      if (weightedList.length === 0) break;
+      
+      // Select a random word from the weighted list
+      const randomIndex = Math.floor(Math.random() * weightedList.length);
+      const selectedWordIndex = weightedList[randomIndex];
+      const selectedWord = availableWords[selectedWordIndex];
+      
+      // Add the selected word to our results
+      selectedWords.push(selectedWord);
+      
+      // Remove the selected word from the available words to ensure uniqueness
+      availableWords.splice(selectedWordIndex, 1);
+    }
+    
+    return selectedWords;
   };
 
   // Move to next card
@@ -66,7 +89,7 @@ function App() {
           label="Number of Words"
           type="number"
           value={numWords}
-          onChange={(e) => setNumWords(Math.min(words.length, Math.max(1, e.target.value)))}
+          onChange={(e) => setNumWords(Math.min(words.length, Math.max(1, parseInt(e.target.value) || 1)))}
           inputProps={{ min: 1, max: words.length }}
           sx={{ mr: 2, width: 120 }}
           size="small"

@@ -1,15 +1,15 @@
 [
   {
-    "english": "main",
-    "romanian": "principal",
+    "english": "the main",
+    "romanian": "principala",
     "frequency": 10,
-    "audio": null
+    "audio": "/audio/main.mp3"
   },
   {
     "english": "challenge",
     "romanian": "provocare",
     "frequency": 9,
-    "audio": null
+    "audio": "/audio/challenge.mp3"
   },
   {
     "english": "word",
@@ -69,7 +69,7 @@
     "english": "to speak",
     "romanian": "a vorbi",
     "frequency": 10,
-    "audio": null
+    "audio": "/audio/to_speak.mp3"
   },
   {
     "english": "to listen",
@@ -139,15 +139,15 @@
   },
   {
     "english": "other",
-    "romanian": "alt",
+    "romanian": "alt(celalalt)",
     "frequency": 10,
-    "audio": null
+    "audio": "/audio/other.mp3"
   },
   {
     "english": "another",
-    "romanian": "altul(inca unul)",
+    "romanian": "altul(un alt)",
     "frequency": 10,
-    "audio": "/audio/to_catch.mp3"
+    "audio": "/audio/another.mp3"
   },
   {
     "english": "to throw",
@@ -200,26 +200,26 @@
   {
     "english": "wrong",
     "romanian": "greșit",
-    "frequency": 10,
-    "audio": null
+    "frequency": 7,
+    "audio": "/audio/wrong.mp3"
   },
   {
     "english": "beautiful",
     "romanian": "frumos",
     "frequency": 10,
-    "audio": null
+    "audio": "/audio/beautiful.mp3"
   },
   {
     "english": "ugly",
     "romanian": "urât",
-    "frequency": 10,
-    "audio": null
+    "frequency": 6,
+    "audio": "/audio/ugly.mp3"
   },
   {
     "english": "to fight",
     "romanian": "a lupta",
     "frequency": 2,
-    "audio": null
+    "audio": "/audio/to_fight.mp3"
   },
   {
     "english": "to feed",
@@ -228,10 +228,16 @@
     "audio": null
   },
   {
+    "english": "to drop",
+    "romanian": "a cădea(a lăsa sa cadă)",
+    "frequency": 6,
+    "audio": "/audio/to_drop.mp3"
+  },
+  {
     "english": "to check",
     "romanian": "a verifica",
     "frequency": 10,
-    "audio": null
+    "audio": "/audio/to_check.mp3"
   },
   {
     "english": "anywhere",
@@ -243,7 +249,7 @@
     "english": "everywhere",
     "romanian": "peste tot",
     "frequency": 10,
-    "audio": null
+    "audio": "/audio/everywhere.mp3"
   },
   {
     "english": "to search",
@@ -255,8 +261,8 @@
     "english": "behind",
     "romanian": "după",
     "frequency": 10,
-    "audio": null
-  },  
+    "audio": "/audio/behind.mp3"
+  },
   {
     "english": "to find",
     "romanian": "a găsi",
@@ -267,7 +273,7 @@
     "english": "to allow",
     "romanian": "a permite",
     "frequency": 10,
-    "audio": null
+    "audio": "/audio/to_allow.mp3"
   },
   {
     "english": "each",
@@ -291,7 +297,7 @@
     "english": "while",
     "romanian": "în timp ce",
     "frequency": 10,
-    "audio": null
+    "audio": "/audio/while.mp3"
   },
   {
     "english": "during",
@@ -304,6 +310,193 @@
     "romanian": "până",
     "frequency": 10,
     "audio": "/audio/until.mp3"
+  },
+  {
+    "english": "never",
+    "romanian": "niciodată",
+    "frequency": 7,
+    "audio": null
+  },
+  {
+    "english": "every time",
+    "romanian": "de fiecare dată",
+    "frequency": 10,
+    "audio": null
+  },
+  {
+    "english": "always",
+    "romanian": "întotdeauna",
+    "frequency": 7,
+    "audio": "/audio/always.mp3"
+  },
+  {
+    "english": "forever",
+    "romanian": "pentru totdeauna",
+    "frequency": 7,
+    "audio": "/audio/forever.mp3"
+  },
+  {
+    "english": "before",
+    "romanian": "înainte",
+    "frequency": 10,
+    "audio": "/audio/before.mp3"
+  },
+  {
+    "english": "after",
+    "romanian": "după",
+    "frequency": 10,
+    "audio": null
+  },
+  {
+    "english": "almost",
+    "romanian": "aproape",
+    "frequency": 10,
+    "audio": "/audio/almost.mp3"
+  },  
+  {
+    "english": "then",
+    "romanian": "atunci / apoi",
+    "frequency": 10,
+    "audio": "/audio/then.mp3"
+  },
+  {
+    "english": "nothing",
+    "romanian": "nimic",
+    "frequency": 6,
+    "audio": "/audio/nothing.mp3"
+  },
+    {
+    "english": "everything",
+    "romanian": "tot",
+    "frequency": 7,
+    "audio": "/audio/everything.mp3"
+  },
+    {
+    "english": "some",
+    "romanian": "niste",
+    "frequency": 6,
+    "audio": "/audio/some.mp3"
+  },  
+    {
+    "english": "something",
+    "romanian": "ceva",
+    "frequency": 6,
+    "audio": "/audio/something.mp3"
+    },  
+    {
+    "english": "somebody",
+    "romanian": "cineva",
+    "frequency": 6,
+    "audio": "/audio/somebody.mp3"
+    },  
+    {
+    "english": "window",
+    "romanian": "fereastră",
+    "frequency": 6,
+    "audio": "/audio/window.mp3"
+    },  
+    {
+    "english": "to understand",
+    "romanian": "a înțelege",
+    "frequency": 6,
+    "audio": "/audio/to_understand.mp3"
+    },  
+    {
+    "english": "to guess",
+    "romanian": "a ghici",
+    "frequency": 6,
+    "audio": "/audio/to_guess.mp3"
+    },  
+    {
+    "english": "to wear",
+    "romanian": "a purta",
+    "frequency": 8,
+    "audio": "/audio/to_wear.mp3"
+    },  
+    {
+    "english": "to feel",
+    "romanian": "a simți",
+    "frequency": 8,
+    "audio": "/audio/to_feel.mp3"
+    },  
+    {
+    "english": "trouble",
+    "romanian": "necaz, belea",
+    "frequency": 8,
+    "audio": "/audio/trouble.mp3"
+    },  
+    {
+    "english": "to break",
+    "romanian": "a sparge",
+    "frequency": 5,
+    "audio": "/audio/to_break.mp3"
+    },
+    {
+    "english": "to touch",
+    "romanian": "a atinge",
+    "frequency": 7,
+    "audio": "/audio/to_touch.mp3"
+    },
+    {
+    "english": "what",
+    "romanian": "ce",
+    "frequency": 5,
+    "audio": "/audio/what.mp3"
+    },    
+    {
+    "english": "quick",
+    "romanian": "rapid",
+    "frequency": 7,
+    "audio": "/audio/quick.mp3"
+    },    
+    {
+    "english": "where",
+    "romanian": "unde",
+    "frequency": 5,
+    "audio": "/audio/where.mp3"
+    },    
+    {
+    "english": "why",
+    "romanian": "de ce",
+    "frequency": 5,
+    "audio": "/audio/why.mp3"
+    },    
+    {
+    "english": "to skip",
+    "romanian": "a sari / a omite",
+    "frequency": 7,
+    "audio": "/audio/to_skip.mp3"
+    },  
+    {
+    "english": "to hurt",
+    "romanian": "a răni, a durea",
+    "frequency": 7,
+    "audio": "/audio/to_hurt.mp3"
+    },  
+    {
+    "english": "to call",
+    "romanian": "a suna, a chema",
+    "frequency": 7,
+    "audio": "/audio/to_call.mp3"
+    },  
+    {
+    "english": "enough",
+    "romanian": "suficient, de ajuns",
+    "frequency": 7,
+    "audio": "/audio/enough.mp3"
+    },  
+    {
+    "english": "wonderful",
+    "romanian": "minunat, fantastic",
+    "frequency": 7,
+    "audio": "/audio/wonderful.mp3"
+    },  
+    {
+    "english": "to remember",
+    "romanian": "a-si aminti(a-si aduce aminte)",
+    "frequency": 6,
+    "audio": "/audio/to_remember.mp3"
   }
+
 ]
 
