@@ -188,8 +188,8 @@
   {
     "english": "usually",
     "romanian": "de obicei",
-    "frequency": 10,
-    "audio": null
+    "frequency": 7,
+    "audio": "/audio/usually.mp3"
   },
   {
     "english": "whole",
@@ -390,6 +390,24 @@
     "audio": "/audio/somebody.mp3"
     },  
     {
+    "english": "among",
+    "romanian": "printre",
+    "frequency": 6,
+    "audio": "/audio/among.mp3"
+    },  
+    {
+    "english": "better",
+    "romanian": "mai bine",
+    "frequency": 6,
+    "audio": "/audio/better.mp3"
+    },      
+    {
+    "english": "worse",
+    "romanian": "mai rău",
+    "frequency": 6,
+    "audio": "/audio/worse.mp3"
+    },      
+    {
     "english": "window",
     "romanian": "fereastră",
     "frequency": 6,
@@ -406,6 +424,24 @@
     "romanian": "a ghici",
     "frequency": 6,
     "audio": "/audio/to_guess.mp3"
+    },  
+    {
+    "english": "to leave",
+    "romanian": "a pleca",
+    "frequency": 6,
+    "audio": "/audio/to_leave.mp3"
+    },  
+    {
+    "english": "to gather",
+    "romanian": "a strânge, a aduna",
+    "frequency": 6,
+    "audio": "/audio/to_gather.mp3"
+    },  
+    {
+    "english": "to heal",
+    "romanian": "a vindeca",
+    "frequency": 6,
+    "audio": "/audio/to_heal.mp3"
     },  
     {
     "english": "to wear",
@@ -480,6 +516,65 @@
     "audio": "/audio/to_call.mp3"
     },  
     {
+    "english": "to become",
+    "romanian": "a deveni",
+    "frequency": 7,
+    "audio": "/audio/to_become.mp3"
+    },  
+    {
+    "english": "to steal",
+    "romanian": "a fura",
+    "frequency": 7,
+    "audio": "/audio/to_steal.mp3"
+    },  
+    {
+    "english": "to spend",
+    "romanian": "a cheltui",
+    "frequency": 7,
+    "audio": "/audio/to_spend.mp3"
+    },  
+    {
+    "english": "to own",
+    "romanian": "a deține",
+    "frequency": 7,
+    "audio": "/audio/to_own.mp3"
+    },  
+    {
+    "english": "to scream",
+    "romanian": "a țipa",
+    "frequency": 6,
+    "audio": "/audio/to_scream.mp3"
+    },  
+    {
+    "english": "to hide",
+    "romanian": "a ascunde",
+    "frequency": 4
+    },  
+    {
+    "english": "often",
+    "romanian": "deseori",
+    "frequency": 7,
+    "audio": "/audio/often.mp3"
+    },  
+    {
+    "english": "bright",
+    "romanian": "strălucitor",
+    "frequency": 7,
+    "audio": "/audio/bright.mp3"
+    },  
+    {
+    "english": "shadow",
+    "romanian": "umbră",
+    "frequency": 6,
+    "audio": "/audio/shadow.mp3"
+    },  
+    {
+    "english": "towards",
+    "romanian": "către",
+    "frequency": 6,
+    "audio": "/audio/shadow.mp3"
+    },  
+    {
     "english": "enough",
     "romanian": "suficient, de ajuns",
     "frequency": 7,
@@ -490,6 +585,48 @@
     "romanian": "minunat, fantastic",
     "frequency": 7,
     "audio": "/audio/wonderful.mp3"
+    },  
+    {
+    "english": "amazing",
+    "romanian": "uimitor, fantastic",
+    "frequency": 7,
+    "audio": "/audio/amazing.mp3"
+    },  
+    {
+    "english": "through",
+    "romanian": "prin",
+    "frequency": 9,
+    "audio": "/audio/through.mp3"
+    },  
+    {
+    "english": "garbage",
+    "romanian": "gunoi",
+    "frequency": 9,
+    "audio": "/audio/garbage.mp3"
+    },  
+    {
+    "english": "to lock",
+    "romanian": "a incuia",
+    "frequency": 7,
+    "audio": "/audio/to_lock.mp3"
+    },  
+    {
+    "english": "to hate",
+    "romanian": "a urî",
+    "frequency": 7,
+    "audio": "/audio/to_lock.mp3"
+    },  
+    {
+    "english": "strong",
+    "romanian": "puternic",
+    "frequency": 6,
+    "audio": "/audio/strong.mp3"
+    },  
+    {
+    "english": "mind",
+    "romanian": "minte",
+    "frequency": 10,
+    "audio": "/audio/mind.mp3"
     },  
     {
     "english": "to remember",
