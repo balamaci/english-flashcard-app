@@ -18,6 +18,13 @@ function App() {
       .catch((error) => console.error('Error loading words:', error));
   }, []);
 
+   useEffect(() => {
+  if (currentCard && currentCard.audio) {
+    const audio = new Audio(currentCard.audio);
+    audio.play();
+  }
+}, [currentCard]);
+
   // Start a new session
   const startSession = () => {
     const selectedWords = pickRandomWords(words, numWords);
@@ -65,13 +72,13 @@ function App() {
     return selectedWords;
   };
 
-  // Move to next card
-  const nextCard = () => {
-    const currentIndex = sessionWords.indexOf(currentCard);
-    const nextIndex = (currentIndex + 1) % sessionWords.length;
-    setCurrentCard(sessionWords[nextIndex]);
-    setShowTranslation(false); // Hide translation for new card
-  };
+// Modify nextCard function (now it only needs to handle card changing)
+const nextCard = () => {
+  const currentIndex = sessionWords.indexOf(currentCard);
+  const nextIndex = (currentIndex + 1) % sessionWords.length;
+  setCurrentCard(sessionWords[nextIndex]);
+  setShowTranslation(false); // Hide translation for new card
+};
 
   // Play audio if available
   const playAudio = (audioPath) => {
