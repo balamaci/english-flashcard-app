@@ -80,6 +80,20 @@ const nextCard = () => {
   setShowTranslation(false); // Hide translation for new card
 };
 
+// Add function to remove current word from session
+const removeCurrentWord = () => {
+  const updatedSessionWords = sessionWords.filter(word => word !== currentCard);
+  setSessionWords(updatedSessionWords);
+  
+  // If we removed the last word, set currentCard to null
+  if (updatedSessionWords.length === 0) {
+    setCurrentCard(null);
+  } else {
+    // Otherwise, move to the next word
+    nextCard();
+  }
+};
+
   // Play audio if available
   const playAudio = (audioPath) => {
     if (audioPath) {
@@ -119,6 +133,13 @@ const nextCard = () => {
               </Typography>
             )}
             <Box sx={{ display: 'flex', justifyContent: 'center', gap: 2 }}>
+            <Button 
+                variant="outlined" 
+                color="error" 
+                onClick={removeCurrentWord}
+              >
+                Remove Word
+              </Button>
               <Button variant="outlined" color="secondary" onClick={() => setShowTranslation(true)}>
                 Answer
               </Button>
