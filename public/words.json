@@ -2,7 +2,7 @@
   {
     "english": "the main",
     "romanian": "principala",
-    "frequency": 10,
+    "frequency": 8,
     "audio": "/audio/main.mp3"
   },
   {
@@ -20,7 +20,7 @@
   {
     "english": "boring",
     "romanian": "plictisitor",
-    "frequency": 10,
+    "frequency": 7,
     "audio": null
   },
   {
@@ -80,13 +80,13 @@
   {
     "english": "to see",
     "romanian": "a vedea",
-    "frequency": 10,
+    "frequency": 8,
     "audio": "/audio/to_see.mp3"
   },
   {
     "english": "to hear",
     "romanian": "a auzi",
-    "frequency": 10,
+    "frequency": 8,
     "audio": "/audio/to_hear.mp3"
   },
   {
@@ -373,13 +373,13 @@
   {
     "english": "before",
     "romanian": "înainte",
-    "frequency": 10,
+    "frequency": 5,
     "audio": "/audio/before.mp3"
   },
   {
     "english": "after",
     "romanian": "după",
-    "frequency": 10,
+    "frequency": 5,
     "audio": null
   },
   {
@@ -617,7 +617,7 @@
     {
     "english": "shadow",
     "romanian": "umbră",
-    "frequency": 6,
+    "frequency": 4,
     "audio": "/audio/shadow.mp3"
     },  
     {
@@ -792,6 +792,22 @@
     "audio": "/audio/to_defeat.mp3"        
     },
     {
+    "english": "to burn",
+    "romanian": "a arde",
+    "frequency": 9,
+    "audio": "/audio/to_defeat.mp3"        
+    },
+    {
+    "english": "to hit",
+    "romanian": "a lovi",
+    "frequency": 9
+    },
+    {
+    "english": "battle",
+    "romanian": "batalie / lupta",
+    "frequency": 3
+    },
+    {
     "english": "defeat",
     "romanian": "înfrângere",
     "frequency": 9,
@@ -808,6 +824,36 @@
     "romanian": "jumătate",
     "frequency": 8,
     "audio": "/audio/half.mp3"        
+    },
+    {
+    "english": "middle",
+    "romanian": "mijloc",
+    "frequency": 8,
+    "audio": "/audio/middle.mp3"        
+    },
+    {
+    "english": "to wake",
+    "romanian": "a trezi",
+    "frequency": 8,
+    "audio": "/audio/to_wake.mp3"        
+    },
+    {
+    "english": "weird",
+    "romanian": "ciudat, straniu",
+    "frequency": 8,
+    "audio": "/audio/to_wake.mp3"        
+    },
+    {
+    "english": "to scare",
+    "romanian": "a speria",
+    "frequency": 8,
+    "audio": "/audio/to_scare.mp3"        
+    },
+    {
+    "english": "to hurry",
+    "romanian": "a grabi",
+    "frequency": 8,
+    "audio": "/audio/to_hurry.mp3"        
     },
     {
     "english": "full",
