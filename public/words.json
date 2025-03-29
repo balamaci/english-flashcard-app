@@ -272,7 +272,7 @@
     "english": "anywhere",
     "romanian": "oriunde",
     "frequency": 10,
-    "audio": null
+    "audio": "/audio/anywhere.mp3"
   },
   {
     "english": "everywhere",
@@ -305,10 +305,22 @@
     "audio": "/audio/to_allow.mp3"
   },
   {
+    "english": "to forgive",
+    "romanian": "a ierta",
+    "frequency": 10,
+    "audio": "/audio/to_forgive.mp3"
+  },
+  {
     "english": "each",
     "romanian": "fiecare",
     "frequency": 3,
     "audio": null
+  },
+  {
+    "english": "same",
+    "romanian": "acelasi",
+    "frequency": 3,
+    "audio": "/audio/same.mp3"
   },
   {
     "english": "every",
@@ -320,7 +332,7 @@
     "english": "between",
     "romanian": "între",
     "frequency": 10,
-    "audio": null
+    "audio": "/audio/between.mp3"
   },
   {
     "english": "while",
@@ -431,6 +443,28 @@
     "audio": "/audio/among.mp3"
     },  
     {
+    "english": "soon",
+    "romanian": "în curând",
+    "frequency": 6
+    },  
+    {
+    "english": "also",
+    "romanian": "de asemenea",
+    "frequency": 6
+    },  
+    {
+    "english": "quiet",
+    "romanian": "liniște",
+    "frequency": 8,
+    "audio": "/audio/quiet.mp3"    
+    },
+    {
+    "english": "noise",
+    "romanian": "zgomot",
+    "frequency": 8,
+    "audio": "/audio/noise.mp3"    
+    },    
+    {
     "english": "together",
     "romanian": "împreună",
     "frequency": 6,
@@ -525,6 +559,12 @@
     "romanian": "a rezolva",
     "frequency": 9,
     "audio": "/audio/to_solve.mp3"
+    },  
+    {
+    "english": "to bring",
+    "romanian": "a aduce",
+    "frequency": 9,
+    "audio": "/audio/to_bring.mp3"
     },  
     {
     "english": "what",
@@ -820,7 +860,7 @@
     "english": "to burn",
     "romanian": "a arde",
     "frequency": 9,
-    "audio": "/audio/to_defeat.mp3"        
+    "audio": "/audio/to_burn.mp3"        
     },
     {
     "english": "to chew",
@@ -905,6 +945,12 @@
     "audio": "/audio/to_rest.mp3"        
     },
     {
+    "english": "to arrive",
+    "romanian": "a sosi",
+    "frequency": 8,
+    "audio": "/audio/to_arrive.mp3"        
+    },
+    {
     "english": "to succeed",
     "romanian": "a reuși",
     "frequency": 8,
@@ -921,6 +967,36 @@
     "romanian": "a ateriza",
     "frequency": 8,
     "audio": "/audio/to_land.mp3"        
+    },
+    {
+    "english": "to raise",
+    "romanian": "a crește",
+    "frequency": 8,
+    "audio": "/audio/to_raise.mp3"        
+    },
+    {
+    "english": "to finish",
+    "romanian": "a termina",
+    "frequency": 8,
+    "audio": "/audio/to_finish.mp3"        
+    },
+    {
+    "english": "to rise",
+    "romanian": "a se ridica",
+    "frequency": 8,
+    "audio": "/audio/to_rise.mp3"        
+    },
+    {
+    "english": "clever",
+    "romanian": "inteligent",
+    "frequency": 8,
+    "audio": "/audio/clever.mp3"        
+    },
+    {
+    "english": "however",
+    "romanian": "totuși",
+    "frequency": 8,
+    "audio": "/audio/however.mp3"        
     },
     {
     "english": "full",
