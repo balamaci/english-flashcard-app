@@ -110,7 +110,28 @@ const removeCurrentWord = () => {
           label="Number of Words"
           type="number"
           value={numWords}
-          onChange={(e) => setNumWords(Math.min(words.length, Math.max(1, parseInt(e.target.value) || 1)))}
+          onChange={(e) => {
+            const value = e.target.value;
+            if (value === '') {
+              setNumWords('');
+            } else {
+              const num = parseInt(value);
+              if (!isNaN(num)) {
+                setNumWords(num);
+              }
+            }
+          }}
+          onBlur={(e) => {
+            const value = e.target.value;
+            if (value === '') {
+              setNumWords(1);
+            } else {
+              const num = parseInt(value);
+              if (!isNaN(num)) {
+                setNumWords(Math.min(words.length, Math.max(1, num)));
+              }
+            }
+          }}
           inputProps={{ min: 1, max: words.length }}
           sx={{ mr: 2, width: 120 }}
           size="small"
