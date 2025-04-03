@@ -50,19 +50,19 @@
   {
     "english": "to sleep",
     "romanian": "a dormi",
-    "frequency": 10,
+    "frequency": 1,
     "audio": null
   },
   {
     "english": "to read",
     "romanian": "a citi",
-    "frequency": 10,
+    "frequency": 7,
     "audio": null
   },
   {
     "english": "to write",
     "romanian": "a scrie",
-    "frequency": 10,
+    "frequency": 7,
     "audio": null
   },
   {
@@ -140,13 +140,13 @@
   {
     "english": "to work",
     "romanian": "a lucra",
-    "frequency": 10,
+    "frequency": 2,
     "audio": null
   },
   {
     "english": "to play",
     "romanian": "a se juca",
-    "frequency": 10,
+    "frequency": 2,
     "audio": null
   },
   {
@@ -794,6 +794,12 @@
     "audio": "/audio/to_meet.mp3"    
     },  
     {
+    "english": "to gain",
+    "romanian": "a obtine",
+    "frequency": 7,
+    "audio": "/audio/to_gain.mp3"
+    },  
+    {
     "english": "to return",
     "romanian": "a reveni / a se reîntoarce",
     "frequency": 7,
@@ -969,6 +975,11 @@
     "audio": "/audio/to_land.mp3"        
     },
     {
+    "english": "to lift",
+    "romanian": "a ridica",
+    "frequency": 8
+    },
+    {
     "english": "to raise",
     "romanian": "a crește",
     "frequency": 8,
@@ -991,6 +1002,21 @@
     "romanian": "inteligent",
     "frequency": 8,
     "audio": "/audio/clever.mp3"        
+    },
+    {
+    "english": "high",
+    "romanian": "sus / inalt",
+    "frequency": 8
+    },
+    {
+    "english": "low",
+    "romanian": "jos",
+    "frequency": 8
+    },
+    {
+    "english": "forest",
+    "romanian": "padure",
+    "frequency": 3
     },
     {
     "english": "however",
