@@ -573,6 +573,12 @@
     "audio": "/audio/what.mp3"
     },    
     {
+    "english": "which",
+    "romanian": "care",
+    "frequency": 7,
+    "audio": "/audio/which.mp3"
+    },    
+    {
     "english": "quick",
     "romanian": "rapid",
     "frequency": 7,
@@ -639,9 +645,16 @@
     "audio": "/audio/to_scream.mp3"
     },  
     {
+    "english": "to answer",
+    "romanian": "a raspunde",
+    "frequency": 6,
+    "audio": "/audio/to_answer.mp3"
+    },      
+    {
     "english": "to hide",
     "romanian": "a ascunde",
-    "frequency": 4
+    "frequency": 4,
+    "audio": "/audio/to_hide.mp3"    
     },  
     {
     "english": "often",
@@ -918,7 +931,7 @@
     "english": "weird",
     "romanian": "ciudat, straniu",
     "frequency": 8,
-    "audio": "/audio/to_wake.mp3"        
+    "audio": "/audio/weird.mp3"        
     },
     {
     "english": "to scare",
@@ -931,6 +944,17 @@
     "romanian": "a grabi",
     "frequency": 8,
     "audio": "/audio/to_hurry.mp3"        
+    },
+    {
+    "english": "to fix",
+    "romanian": "a repara",
+    "frequency": 8
+    },
+    {
+    "english": "to want",
+    "romanian": "a vrea",
+    "frequency": 8,
+    "audio": "/audio/to_want.mp3"            
     },
     {
     "english": "to agree",
