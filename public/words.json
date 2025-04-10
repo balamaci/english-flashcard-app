@@ -257,10 +257,21 @@
     "frequency": 2
   },
   {
+    "english": "weapon",
+    "romanian": "arma",
+    "frequency": 5,
+    "audio": "/audio/weapon.mp3"    
+  },
+  {
     "english": "to feed",
     "romanian": "a hrăni",
     "frequency": 4,
     "audio": "/audio/to_feed.mp3"
+  },
+    {
+    "english": "to dig",
+    "romanian": "a sapa",
+    "frequency": 4
   },
   {
     "english": "to drop",
@@ -639,6 +650,18 @@
     "audio": "/audio/to_steal.mp3"
     },  
     {
+    "english": "to show",
+    "romanian": "a arata",
+    "frequency": 7,
+    "audio": "/audio/to_show.mp3"
+    },  
+    {
+    "english": "to fall",
+    "romanian": "a cadea",
+    "frequency": 7,
+    "audio": "/audio/to_fall.mp3"
+    },  
+    {
     "english": "to spend",
     "romanian": "a cheltui",
     "frequency": 7,
@@ -662,6 +685,18 @@
     "frequency": 6,
     "audio": "/audio/to_answer.mp3"
     },      
+    {
+    "english": "to forget",
+    "romanian": "a uita",
+    "frequency": 9,
+    "audio": "/audio/to_forget.mp3"
+    },
+    {
+    "english": "to try",
+    "romanian": "a incerca",
+    "frequency": 6,
+    "audio": "/audio/to_try.mp3"
+    },
     {
     "english": "to hide",
     "romanian": "a ascunde",
@@ -690,6 +725,12 @@
     "romanian": "umbră",
     "frequency": 4,
     "audio": "/audio/shadow.mp3"
+    },  
+    {
+    "english": "heart",
+    "romanian": "inima",
+    "frequency": 4,
+    "audio": "/audio/heart.mp3"
     },  
     {
     "english": "light",
@@ -817,13 +858,13 @@
     {
     "english": "tooth",
     "romanian": "dinte",
-    "frequency": 7,
+    "frequency": 4,
     "audio": "/audio/tooth.mp3"    
     },  
     {
     "english": "teeth",
     "romanian": "dinți",
-    "frequency": 7,
+    "frequency": 4,
     "audio": "/audio/teeth.mp3"    
     },  
     {
@@ -842,6 +883,23 @@
     "romanian": "podea",
     "frequency": 6
     },  
+    {
+    "english": "powder",
+    "romanian": "praf",
+    "frequency": 7,
+    "audio": "/audio/powder.mp3"        
+    },  
+    {
+    "english": "poison",
+    "romanian": "otrava",
+    "frequency": 7,
+    "audio": "/audio/poison.mp3"        
+    },      
+    {
+    "english": "to do",
+    "romanian": "a face",
+    "frequency": 7
+    },      
     {
     "english": "to hold",
     "romanian": "a ține",
@@ -951,6 +1009,12 @@
     "romanian": "a învinge",
     "frequency": 9,
     "audio": "/audio/to_defeat.mp3"        
+    },
+    {
+    "english": "to look",
+    "romanian": "a privi",
+    "frequency": 9,
+    "audio": "/audio/to_look.mp3"        
     },
     {
     "english": "to burn",
