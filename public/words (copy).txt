@@ -999,24 +999,6 @@
     "audio": "/audio/to_pull.mp3"        
     },
     {
-    "english": "to believe",
-    "romanian": "a crede",
-    "frequency": 7,
-    "audio": "/audio/to_believe.mp3"        
-    },
-    {
-    "english": "to hope",
-    "romanian": "a spera",
-    "frequency": 7,
-    "audio": "/audio/to_hope.mp3"        
-    },
-    {
-    "english": "to keep",
-    "romanian": "a pastra",
-    "frequency": 7,
-    "audio": "/audio/to_keep.mp3"        
-    },    
-    {
     "english": "truth",
     "romanian": "adevăr",
     "frequency": 9,
@@ -1024,7 +1006,7 @@
     },
     {
     "english": "to defeat",
-    "romanian": "a înfrânge",
+    "romanian": "a învinge",
     "frequency": 9,
     "audio": "/audio/to_defeat.mp3"        
     },
@@ -1059,13 +1041,13 @@
     {
     "english": "defeat",
     "romanian": "înfrângere",
-    "frequency": 8,
+    "frequency": 9,
     "audio": "/audio/defeat.mp3"        
     },
     {
     "english": "well",
     "romanian": "bine",
-    "frequency": 4,
+    "frequency": 8,
     "audio": "/audio/well.mp3"        
     },
     {
