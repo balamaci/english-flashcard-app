@@ -12,10 +12,46 @@
     "audio": "/audio/challenge.mp3"
   },
   {
+    "english": "sick",
+    "romanian": "bolnav",
+    "frequency": 6,
+    "audio": "/audio/challenge.mp3"
+  },
+  {
+    "english": "wife",
+    "romanian": "sotie",
+    "frequency": 6,
+    "audio": "/audio/wife.mp3"
+  },
+  {
     "english": "word",
     "romanian": "cuvânt",
-    "frequency": 10,
+    "frequency": 7,
     "audio": "/audio/word.mp3"
+  },
+  {
+    "english": "because",
+    "romanian": "pentru ca",
+    "frequency": 7,
+    "audio": "/audio/because.mp3"
+  },
+  {
+    "english": "fear",
+    "romanian": "teama",
+    "frequency": 7,
+    "audio": "/audio/fear.mp3"
+  },
+  {
+    "english": "wild",
+    "romanian": "salbatic",
+    "frequency": 7,
+    "audio": "/audio/wild.mp3"
+  },
+  {
+    "english": "reward",
+    "romanian": "recompensa",
+    "frequency": 7,
+    "audio": "/audio/reward.mp3"
   },
   {
     "english": "boring",
@@ -27,7 +63,13 @@
     "english": "to walk",
     "romanian": "a merge",
     "frequency": 5,
-    "audio": null
+    "audio": "/audio/to_walk.mp3"
+  },
+  {
+    "english": "to let",
+    "romanian": "a lasa",
+    "frequency": 5,
+    "audio": "/audio/to_let.mp3"
   },
   {
     "english": "to run",
@@ -45,7 +87,7 @@
     "english": "to drink",
     "romanian": "a bea",
     "frequency": 2,
-    "audio": null
+    "audio": "/audio/to_drink.mp3"
   },
   {
     "english": "to sleep",
@@ -63,7 +105,7 @@
     "english": "to write",
     "romanian": "a scrie",
     "frequency": 7,
-    "audio": null
+    "audio": "/audio/to_write.mp3"
   },
   {
     "english": "to speak",
@@ -98,13 +140,13 @@
   {
     "english": "to think",
     "romanian": "a gândi",
-    "frequency": 10,
+    "frequency": 8,
     "audio": "/audio/to_think.mp3"
   },
   {
     "english": "wisdom",
     "romanian": "înțelepciune",
-    "frequency": 10,
+    "frequency": 8,
     "audio": "/audio/wisdom.mp3"
   },
   {
@@ -114,16 +156,57 @@
     "audio": "/audio/courage.mp3"
   },
   {
+    "english": "inside",
+    "romanian": "inauntru",
+    "frequency": 8,
+    "audio": "/audio/inside.mp3"
+  },
+  {
+    "english": "outside",
+    "romanian": "afara",
+    "frequency": 8,
+    "audio": "/audio/outside.mp3"
+  },
+  {
+    "english": "if / else",
+    "romanian": "daca / daca nu",
+    "frequency": 8
+  },
+  {
     "english": "to know",
     "romanian": "a ști",
     "frequency": 10,
     "audio": "/audio/to_know.mp3"
   },
   {
+    "english": "to shoot",
+    "romanian": "a trage",
+    "frequency": 9,
+    "audio": "/audio/to_shoot.mp3"
+  },
+  {
+    "english": "to miss",
+    "romanian": "a rata",
+    "frequency": 9,
+    "audio": "/audio/to_miss.mp3"
+  },
+  {
     "english": "to pick",
     "romanian": "a culege / a alege",
     "frequency": 6,
     "audio": "/audio/to_pick.mp3"
+  },
+  {
+    "english": "to bite",
+    "romanian": "a musca",
+    "frequency": 8,
+    "audio": "/audio/to_bite.mp3"
+  },
+  {
+    "english": "to bite",
+    "romanian": "a musca",
+    "frequency": 8,
+    "audio": "/audio/to_bite.mp3"
   },
   {
     "english": "to move",
@@ -141,7 +224,7 @@
     "english": "to teach",
     "romanian": "a preda",
     "frequency": 10,
-    "audio": null
+    "audio": "/audio/to_teach.mp3"
   },
   {
     "english": "to work",
@@ -634,7 +717,7 @@
     {
     "english": "to call",
     "romanian": "a suna, a chema",
-    "frequency": 7,
+    "frequency": 6,
     "audio": "/audio/to_call.mp3"
     },  
     {
@@ -708,6 +791,18 @@
     "romanian": "deseori",
     "frequency": 7,
     "audio": "/audio/often.mp3"
+    },  
+    {
+    "english": "late",
+    "romanian": "tarziu",
+    "frequency": 7,
+    "audio": "/audio/late.mp3"
+    },  
+    {
+    "english": "early",
+    "romanian": "devreme",
+    "frequency": 7,
+    "audio": "/audio/early.mp3"
     },  
     {
     "english": "bright",
@@ -924,6 +1019,12 @@
     "audio": "/audio/to_meet.mp3"    
     },  
     {
+    "english": "to happen",
+    "romanian": "a se intampla",
+    "frequency": 6,
+    "audio": "/audio/to_happen.mp3"    
+    },  
+    {
     "english": "to gain",
     "romanian": "a obtine",
     "frequency": 7,
@@ -958,10 +1059,28 @@
     "frequency": 6
     },  
     {
+    "english": "near",
+    "romanian": "aproape",
+    "frequency": 4,
+    "audio": "/audio/near.mp3"
+    },  
+    {
+    "english": "far",
+    "romanian": "departe",
+    "frequency": 4,
+    "audio": "/audio/far.mp3"
+    },  
+    {
     "english": "enemy",
     "romanian": "inamic",
     "frequency": 9,
     "audio": "/audio/enemy.mp3"        
+    },  
+    {
+    "english": "chain",
+    "romanian": "lant",
+    "frequency": 7,
+    "audio": "/audio/chain.mp3"        
     },  
     {
     "english": "last",
@@ -979,6 +1098,30 @@
     "romanian": "a minti",
     "frequency": 9,
     "audio": "/audio/to_lie.mp3"        
+    },
+    {
+    "english": "to live",
+    "romanian": "a trai",
+    "frequency": 6,
+    "audio": "/audio/to_live.mp3"        
+    },
+    {
+    "english": "to join",
+    "romanian": "a alatura",
+    "frequency": 6,
+    "audio": "/audio/to_join.mp3"        
+    },
+    {
+    "english": "street",
+    "romanian": "a trai",
+    "frequency": 6,
+    "audio": "/audio/street.mp3"        
+    },
+    {
+    "english": "to defend",
+    "romanian": "a apara",
+    "frequency": 9,
+    "audio": "/audio/to_.mp3"        
     },
     {
     "english": "to begin",
@@ -1201,12 +1344,14 @@
     {
     "english": "high",
     "romanian": "sus / inalt",
-    "frequency": 8
+    "frequency": 8,
+    "audio": "/audio/high.mp3"        
     },
     {
     "english": "low",
     "romanian": "jos",
-    "frequency": 8
+    "frequency": 8,
+    "audio": "/audio/low.mp3"            
     },
     {
     "english": "forest",
