@@ -15,7 +15,7 @@
     "english": "sick",
     "romanian": "bolnav",
     "frequency": 6,
-    "audio": "/audio/challenge.mp3"
+    "audio": "/audio/sick.mp3"
   },
   {
     "english": "wife",
@@ -70,6 +70,24 @@
     "romanian": "a lasa",
     "frequency": 5,
     "audio": "/audio/to_let.mp3"
+  },
+  {
+    "english": "to take",
+    "romanian": "a lua",
+    "frequency": 6,
+    "audio": "/audio/to_take.mp3"
+  },
+  {
+    "english": "to give",
+    "romanian": "a da",
+    "frequency": 6,
+    "audio": "/audio/to_give.mp3"
+  },
+  {
+    "english": "to need",
+    "romanian": "a avea nevoie",
+    "frequency": 8,
+    "audio": "/audio/to_need.mp3"
   },
   {
     "english": "to run",
@@ -156,6 +174,17 @@
     "audio": "/audio/courage.mp3"
   },
   {
+    "english": "river",
+    "romanian": "rau",
+    "frequency": 5,
+    "audio": "/audio/river.mp3"
+  },
+  {
+    "english": "past",
+    "romanian": "trecut",
+    "frequency": 5
+  },
+  {
     "english": "inside",
     "romanian": "inauntru",
     "frequency": 8,
@@ -166,6 +195,24 @@
     "romanian": "afara",
     "frequency": 8,
     "audio": "/audio/outside.mp3"
+  },
+  {
+    "english": "wet",
+    "romanian": "ud, umed",
+    "frequency": 8,
+    "audio": null
+  },
+  {
+    "english": "flower",
+    "romanian": "floare",
+    "frequency": 3,
+    "audio": "/audio/flower.mp3"
+  },
+  {
+    "english": "dry",
+    "romanian": "uscat",
+    "frequency": 5,
+    "audio": null
   },
   {
     "english": "if / else",
@@ -203,12 +250,6 @@
     "audio": "/audio/to_bite.mp3"
   },
   {
-    "english": "to bite",
-    "romanian": "a musca",
-    "frequency": 8,
-    "audio": "/audio/to_bite.mp3"
-  },
-  {
     "english": "to move",
     "romanian": "a muta",
     "frequency": 10,
@@ -219,6 +260,12 @@
     "romanian": "a învăța",
     "frequency": 10,
     "audio": "/audio/to_learn.mp3"
+  },
+  {
+    "english": "to open",
+    "romanian": "a deschide",
+    "frequency": 2,
+    "audio": "/audio/to_open.mp3"
   },
   {
     "english": "to teach",
@@ -396,7 +443,13 @@
     "english": "to find",
     "romanian": "a găsi",
     "frequency": 10,
-    "audio": null
+    "audio": "/audio/to_find.mp3"
+  },
+  {
+    "english": "to put",
+    "romanian": "a pune",
+    "frequency": 8,
+    "audio": "/audio/to_put.mp3"
   },
   {
     "english": "to allow",
@@ -623,6 +676,24 @@
     "romanian": "a vindeca",
     "frequency": 6,
     "audio": "/audio/to_heal.mp3"
+    },  
+    {
+    "english": "fresh",
+    "romanian": "proaspat",
+    "frequency": 6,
+    "audio": "/audio/fresh.mp3"
+    },  
+    {
+    "english": "garlic",
+    "romanian": "usturoi",
+    "frequency": 6,
+    "audio": "/audio/garlic.mp3"
+    },  
+    {
+    "english": "crowded",
+    "romanian": "aglomerat",
+    "frequency": 9,
+    "audio": "/audio/crowded.mp3"
     },  
     {
     "english": "to wear",
@@ -967,6 +1038,12 @@
     "romanian": "intrebare",
     "frequency": 7,
     "audio": "/audio/question.mp3"    
+    },  
+    {
+    "english": "healthy",
+    "romanian": "sanatos",
+    "frequency": 7,
+    "audio": "/audio/healthy.mp3"    
     },  
     {
     "english": "brush",
