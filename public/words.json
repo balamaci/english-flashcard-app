@@ -44,7 +44,7 @@
   {
     "english": "wild",
     "romanian": "salbatic",
-    "frequency": 7,
+    "frequency": 5,
     "audio": "/audio/wild.mp3"
   },
   {
@@ -252,7 +252,7 @@
   {
     "english": "to move",
     "romanian": "a muta",
-    "frequency": 10,
+    "frequency": 9,
     "audio": "/audio/to_move.mp3"
   },
   {
@@ -1048,12 +1048,14 @@
     {
     "english": "brush",
     "romanian": "perie",
-    "frequency": 3
+    "frequency": 3,
+    "audio": "/audio/brush.mp3"    
     },  
     {
     "english": "floor",
     "romanian": "podea",
-    "frequency": 6
+    "frequency": 6,
+    "audio": "/audio/floor.mp3"    
     },  
     {
     "english": "powder",
@@ -1198,7 +1200,7 @@
     "english": "to defend",
     "romanian": "a apara",
     "frequency": 9,
-    "audio": "/audio/to_.mp3"        
+    "audio": "/audio/to_defend.mp3"        
     },
     {
     "english": "to begin",
@@ -1241,6 +1243,18 @@
     "romanian": "adevăr",
     "frequency": 9,
     "audio": "/audio/truth.mp3"        
+    },
+    {
+    "english": "tomorrow",
+    "romanian": "maine",
+    "frequency": 9,
+    "audio": "/audio/tomorrow.mp3"        
+    },
+    {
+    "english": "yesterday",
+    "romanian": "ieri",
+    "frequency": 9,
+    "audio": "/audio/yesterday.mp3"        
     },
     {
     "english": "to defeat",
@@ -1440,6 +1454,36 @@
     "romanian": "totuși",
     "frequency": 8,
     "audio": "/audio/however.mp3"        
+    },
+    {
+    "english": "to bury",
+    "romanian": "a ingropa",
+    "frequency": 8,
+    "audio": "/audio/to_bury.mp3"        
+    },
+    {
+    "english": "dear",
+    "romanian": "drag",
+    "frequency": 8,
+    "audio": "/audio/dear.mp3"        
+    },
+    {
+    "english": "to swear",
+    "romanian": "a jura",
+    "frequency": 8,
+    "audio": "/audio/to_swear.mp3"        
+    },
+    {
+    "english": "town",
+    "romanian": "oras",
+    "frequency": 5,
+    "audio": null
+    },
+    {
+    "english": "mouth",
+    "romanian": "gura",
+    "frequency": 8,
+    "audio": "/audio/mouth.mp3"        
     },
     {
     "english": "full",
