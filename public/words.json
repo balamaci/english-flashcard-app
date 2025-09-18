@@ -1333,6 +1333,30 @@
     "audio": "/audio/to_scare.mp3"        
     },
     {
+    "english": "to hug",
+    "romanian": "a imbratisa",
+    "frequency": 8,
+    "audio": "/audio/to_hug.mp3"        
+    },
+    {
+    "english": "knee",
+    "romanian": "genunchi",
+    "frequency": 8,
+    "audio": "/audio/knee.mp3"        
+    },
+    {
+    "english": "to float",
+    "romanian": "a pluti",
+    "frequency": 8,
+    "audio": "/audio/to_float.mp3"        
+    },
+    {
+    "english": "ceiling",
+    "romanian": "tavan",
+    "frequency": 8,
+    "audio": "/audio/ceiling.mp3"        
+    },
+    {
     "english": "to hurry",
     "romanian": "a grabi",
     "frequency": 8,
@@ -1484,6 +1508,18 @@
     "romanian": "gura",
     "frequency": 8,
     "audio": "/audio/mouth.mp3"        
+    },
+    {
+    "english": "narrow",
+    "romanian": "ingust",
+    "frequency": 8,
+    "audio": "/audio/narrow.mp3"        
+    },
+    {
+    "english": "suddenly",
+    "romanian": "deodata",
+    "frequency": 8,
+    "audio": "/audio/suddenly.mp3"        
     },
     {
     "english": "full",
